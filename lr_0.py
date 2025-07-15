@@ -7,12 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1l3VwsbHP_u7tUv60NAofdVpRgQnUEo-f
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 import pandas as pd
 
-data=pd.read_csv('/content/drive/My Drive/ML/Linear Regression/dataset/data.csv')
+data=pd.read_csv('data.csv')
 display(data.head())
 display(data.columns)
 
