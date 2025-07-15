@@ -15,4 +15,5 @@ int main(){
         file<<x<<","<<y<<"\n";
     }
     file.close();
+    return 0;
 }
